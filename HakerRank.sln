@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HakerRank.LoveLetterMistery", "HakerRank.LoveLetterMistery\HakerRank.LoveLetterMistery.fsproj", "{5101DA68-81BF-45E9-97DD-AA66BA248CD8}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HakerRank.MinAverageWaitingTime", "HakerRank.MinAverageWaitingTime\HakerRank.MinAverageWaitingTime.fsproj", "{8E7EE6FB-1709-4EE1-A384-EA34669332C5}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HakerRank.EvaluateEx", "HakerRank.EvaluateEx\HakerRank.EvaluateEx.fsproj", "{99629490-90BC-4ED8-B333-E2230227AD0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{5101DA68-81BF-45E9-97DD-AA66BA248CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5101DA68-81BF-45E9-97DD-AA66BA248CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5101DA68-81BF-45E9-97DD-AA66BA248CD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E7EE6FB-1709-4EE1-A384-EA34669332C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E7EE6FB-1709-4EE1-A384-EA34669332C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E7EE6FB-1709-4EE1-A384-EA34669332C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E7EE6FB-1709-4EE1-A384-EA34669332C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99629490-90BC-4ED8-B333-E2230227AD0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99629490-90BC-4ED8-B333-E2230227AD0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99629490-90BC-4ED8-B333-E2230227AD0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99629490-90BC-4ED8-B333-E2230227AD0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

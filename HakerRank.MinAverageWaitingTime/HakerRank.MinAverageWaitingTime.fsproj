@@ -5,14 +5,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>5101da68-81bf-45e9-97dd-aa66ba248cd8</ProjectGuid>
+    <ProjectGuid>8e7ee6fb-1709-4ee1-a384-ea34669332c5</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>HakerRank.LoveLetterMistery</RootNamespace>
-    <AssemblyName>HakerRank.LoveLetterMistery</AssemblyName>
+    <RootNamespace>HakerRank.MinAverageWaitingTime</RootNamespace>
+    <AssemblyName>HakerRank.MinAverageWaitingTime</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFSharpCoreVersion>4.3.1.0</TargetFSharpCoreVersion>
-    <Name>HakerRank.LoveLetterMistery</Name>
+    <Name>HakerRank.MinAverageWaitingTime</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -23,7 +23,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
     <PlatformTarget>AnyCPU</PlatformTarget>
-    <DocumentationFile>bin\Debug\HakerRank.LoveLetterMistery.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\HakerRank.MinAverageWaitingTime.XML</DocumentationFile>
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -34,7 +34,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <WarningLevel>3</WarningLevel>
     <PlatformTarget>AnyCPU</PlatformTarget>
-    <DocumentationFile>bin\Release\HakerRank.LoveLetterMistery.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\HakerRank.MinAverageWaitingTime.XML</DocumentationFile>
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
@@ -56,7 +56,11 @@
   <ItemGroup>
     <Compile Include="Program.fs" />
     <None Include="App.config" />
-    <Content Include="Proble.txt" />
+    <Content Include="Case2.input.txt" />
+    <Content Include="Case2.output.txt" />
+    <Content Include="Problem.txt" />
+    <Content Include="Case1.input.txt" />
+    <Content Include="Case1.output.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
